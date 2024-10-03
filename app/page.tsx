@@ -37,7 +37,7 @@ import Head from 'next/head';
 export function Home() {
   'use client';
   return (
-    <>
+    <div>
       <Head>
         <title>Property Management App</title>
         <meta name="description" content="Manage your properties efficiently with our app" />
@@ -78,6 +78,6 @@ export function Home() {
           <p>&copy; 2024 Property Management App. All rights reserved.</p>
         </footer>
       </main>
-    </>
+    </div>
   );
 }
